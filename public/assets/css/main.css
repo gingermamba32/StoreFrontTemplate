@@ -270,15 +270,16 @@ a:after {
    Wrap Sections
    ========================================================================== */
 
-#headerwrap {
-	background: url(../img/header_bg.jpg) no-repeat center top;
-	margin-top: -50px;
-	padding-top:120px;
+/*#headerwrap {
+	background: url(../img/EmeraldCity.png) no-repeat center top;
+	margin: 0 auto;
+	padding-top:0px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 650px;
 	width: 100%;
+    height: 100%;
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -289,7 +290,7 @@ a:after {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+}*/
 
 #headerwrap h1 {
 	color:#ffffff;
