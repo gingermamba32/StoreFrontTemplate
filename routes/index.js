@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var path = require('path');
+// heroku statuc file server
 process.env.PWD = process.cwd()
 
 /* GET home page. */
