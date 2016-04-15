@@ -21,7 +21,7 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
-    
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
     
@@ -65,6 +65,14 @@
 				</div>
 	  		</header>	    
 	    </div><!-- /headerwrap -->
+	    <div class="form-div form-group" style="width: 75%; margin: 0 auto;">
+		    <form action="/send" method="POST" style="width: 300px; text-align: center; margin: 0 auto; padding-bottom: 75px;">
+			    <input class="form-control" name="name" size="30" type="text" placeholder="name">
+			    <input class="form-control" name="email" size="30" type="text" placeholder="email">
+			    <textarea class="form-control" rows="5" name="message" placeholder="message"></textarea><br>
+			    <input class="btn-lg" value="Send email" type="submit" style="background-color:#004d00; color: #fff;">
+			</form>
+		</div>
 
 		
 	    <!-- FORM -->

@@ -640,5 +640,7 @@ a:after {
     .img-div{
         width:100% !important;
     }
-
+    .form-div{
+        width:100% !important;
+    }
 }
