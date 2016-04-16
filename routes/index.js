@@ -26,7 +26,7 @@ router.post('/send', function(req, res, next){
 
 	var mailOptions = {
     from: req.body.email, // sender address
-    to: 'Kris@EmeraldCityCA.org', // list of receivers
+    to: 'david@emeraldcityca.org', // list of receivers
     subject: 'Re: Contact Us -> ' + req.body.name, // Subject line
     text: req.body.message
 	};
