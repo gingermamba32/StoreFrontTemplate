@@ -2,8 +2,7 @@ var express = require('express');
 var router = express.Router();
 var path = require('path');
 var nodemailer = require('nodemailer');
-var user = require('./password.js').email;
-var password = require('./password.js').pass;
+
 
 // heroku statuc file server
 process.env.PWD = process.cwd()
@@ -22,8 +21,8 @@ router.post('/send', function(req, res, next){
 	var transporter = nodemailer.createTransport({
         service: 'Gmail',
         auth: {
-            user: user, // Your email id
-            pass: password // Your password
+            user: process.env.EMAIL, // Your email id
+            pass: process.env.PASSWORD // Your password
         }
     });
 
