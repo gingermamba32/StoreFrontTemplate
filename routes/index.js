@@ -29,9 +29,9 @@ router.post('/send', function(req, res, next){
 
 	var mailOptions = {
     from: req.body.email, // sender address
-    to: 'michaelm@beautyindustrygroup.com', // list of receivers
-    subject: 'Re: Contact Us -> ' + req.body.name, // Subject line
-    text: req.body.message
+    to: 'david@emeraldcityca.org', // list of receivers
+    subject: 'Re: Contact Us -> ' + req.body.name + '/'+ req.body.email, // Subject line
+    text: req.body.name + ' has sent a message via ' + req.body.email + '<br>' + req.body.message
 	};
 
 	transporter.sendMail(mailOptions, function(error, info){
